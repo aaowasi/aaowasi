@@ -1,23 +1,35 @@
 # Abdullah Al Owasi
 
-**Compliance Analyst · GRC & Security Compliance · Controls · TPRM · AI Governance**
+**Governance, risk & assurance | AI governance · Technology risk · TPRM · Audit readiness**
 
-I build control, evidence and vendor-risk workflows that make governance easier to understand and act on.
+I build practical systems that connect control evidence, supplier risk and executive decisions. My focus is accountable governance: clear ownership, defensible findings and a documented path from risk to action.
 
-[Personal website](https://aaowasi.pages.dev/) · [Portfolio](https://aaowasi.pages.dev/work/) · [Project workspace](https://aaowasi-projects.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
+[Personal website](https://aaowasi.pages.dev/) · [Explore the portfolio](https://aaowasi.pages.dev/work/) · [Open the interactive workspace](https://aaowasi-projects.pages.dev/workspace/) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
 
-## Selected work
-- [Audit readiness](https://aaowasi-projects.pages.dev/work/audit-readiness/): controls, evidence, findings and remediation.
-- [Third-party risk](https://aaowasi-projects.pages.dev/work/vendor-risk/): vendor intake, evidence review and decision rationale.
-- [AI governance](https://aaowasi-projects.pages.dev/work/ai-governance/): ownership, oversight and use-case assessment.
+## Inspect the work
 
-Independent practical work; Computer Science (Honours), SEGi University, in progress (expected August 2028).
+| Priority | Portfolio systems | Decision supported |
+|---|---|---|
+| AI governance & advisory | AI lifecycle governance, executive risk, AI transparency, shadow AI | What needs oversight, evidence or an explicit risk decision? |
+| Supplier & processor risk | Third-party due diligence, processor and dependency review | Which supplier conditions need resolution before acceptance? |
+| Enterprise assurance | Audit readiness, continuous assurance, customer assurance, questionnaires | Which claims are supported by current, tested evidence? |
 
-Open to remote compliance/GRC roles and defined engagements in audit readiness, controls and vendor risk.
+The ten projects share an interactive workspace. Import structured metadata, change a supplier or control record, inspect the downstream risk signals and export a decision memo. Each case explains its scenario, input contract, source references, calculation methods and implementation boundaries.
 
-Contact: abdullahalowasi369@gmail.com
+The portfolio is independent work. Scenario data and modeled economics are identified; they are not client outcomes. Public framework references support review methods, not claims of certification or legal compliance.
 
-## Website maintenance
-Edit `content/projects.json`, then run `python3 scripts/build_site.py` and `python3 scripts/check_site.py`. Cloudflare Pages output directory: `site`; build command: `python3 scripts/build_site.py`.
+## Engagement focus
 
-See [OWNER_ACTIONS.md](docs/OWNER_ACTIONS.md) and [ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Audit-readiness assessments, evidence and control reviews, vendor-risk decisions, governance reporting and AI-use-case assessments. Open to remote GRC/compliance roles and clearly scoped B2B engagements.
+
+Framework focus: NIST CSF 2.0, NIST AI RMF, SOC 2, ISO/IEC 27001 and ISO/IEC 42001 concepts, GDPR processor governance and EU AI transparency.
+
+Bachelor of Computer Science (Honours), SEGi University, in progress; expected August 2028. Based in Petaling Jaya, Malaysia.
+
+**Contact:** abdullahalowasi369@gmail.com
+
+## Maintain this website
+
+Edit `content/projects.json`, then run `python3 scripts/build_site.py` and `python3 scripts/check_site.py`. Cloudflare Pages builds with `python3 scripts/build_site.py` and publishes `site`.
+
+The projects repository owns the catalogue; the existing daily sync updates this hub. See [owner actions](docs/OWNER_ACTIONS.md) and [architecture](docs/ARCHITECTURE.md).
