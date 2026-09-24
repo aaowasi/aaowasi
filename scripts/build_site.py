@@ -51,3 +51,7 @@ if not IS_PROJECT:
   rows.append('<article class="work-row"><span class="eyebrow">0'+str(i+1)+'</span><div><p class="eyebrow">'+e(p['domain'])+'</p><h3><a href="'+e(u)+'">'+e(p['title'])+'</a></h3><span class="chips">'+e(p.get('evidenceBasis','Work sample'))+'</span></div><p class="muted">'+e(p['summary'])+'</p><a class="arrow" aria-label="Explore '+e(p['title'],quote=True)+'" href="'+e(u)+'">↗</a></article>')
  (ROOT/'site/index.html').write_text(template.replace('{{FEATURED_WORK}}',''.join(rows)))
 print('Generated catalogue:',len(data),'projects')
+
+# Keep the public profile and downloadable resume reproducible.
+shutil.copyfile(ROOT/'templates/profile.html', ROOT/'site/profile/index.html')
+shutil.copyfile(ROOT/'docs/Abdullah-Al-Owasi-Resume.md', ROOT/'site/assets/Abdullah-Al-Owasi-Resume.md')

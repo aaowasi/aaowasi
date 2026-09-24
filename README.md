@@ -24,7 +24,7 @@ Audit-readiness assessments, evidence and control reviews, vendor-risk decisions
 
 Framework focus: NIST CSF 2.0, NIST AI RMF, SOC 2, ISO/IEC 27001 and ISO/IEC 42001 concepts, GDPR processor governance and EU AI transparency.
 
-Bachelor of Computer Science (Honours), SEGi University, in progress; expected August 2028. Based in Petaling Jaya, Malaysia.
+Based in Petaling Jaya, Malaysia.
 
 **Contact:** abdullahalowasi369@gmail.com
 
@@ -33,3 +33,11 @@ Bachelor of Computer Science (Honours), SEGi University, in progress; expected A
 Edit `content/projects.json`, then run `python3 scripts/build_site.py` and `python3 scripts/check_site.py`. Cloudflare Pages builds with `python3 scripts/build_site.py` and publishes `site`.
 
 The projects repository owns the catalogue; the existing daily sync updates this hub. See [owner actions](docs/OWNER_ACTIONS.md) and [architecture](docs/ARCHITECTURE.md).
+
+## Governance delivery
+
+Abdullah Al Owasi builds governance workflows that connect supplier, AI, privacy and control evidence to accountable decisions. His independent portfolio brings ten disciplines into one working risk workspace, with traceable scoring, explicit review gates and exportable management decisions.
+
+Scoped offers: AI governance sprint; supplier and assurance sprint; recurring governance review. Each starts with agreed scope, evidence access, reviewer responsibilities and acceptance criteria.
+
+[Professional profile and resume](https://aaowasi.pages.dev/profile/)
