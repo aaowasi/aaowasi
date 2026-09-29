@@ -41,3 +41,11 @@ Abdullah Al Owasi builds governance workflows that connect supplier, AI, privacy
 Scoped offers: AI governance sprint; supplier and assurance sprint; recurring governance review. Each starts with agreed scope, evidence access, reviewer responsibilities and acceptance criteria.
 
 [Professional profile and resume](https://aaowasi.pages.dev/profile/)
+
+## Recorded delivery evidence
+
+[Inspect actual GitHub Actions records](https://aaowasi-projects.pages.dev/results/): three observed workflow checks at pinned commits, with source links and timestamps. Workflow elapsed time includes queue/lifecycle time; it is not audit duration or client ROI. The page uses a checked-in snapshot rather than claiming live status.
+
+
+## Continuous GRC suite
+[Open the connected GRC suite](https://aaowasi-projects.pages.dev/suite/): 13 domains, 16 typed registers and103 named views with editable records, validated links, calculated coverage, risks and review dates. [Operating guide](https://github.com/aaowasi/aaowasi-projects/blob/main/docs/CONTINUOUS-GRC-SUITE.md).
