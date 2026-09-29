@@ -25,7 +25,7 @@ Abdullah Al Owasi builds governance workflows that connect supplier, AI, privacy
 - Defined a versioned 30-field contract with 250-record and 10 MB import limits, dependency validation and evidence expiry.
 - Implemented deterministic scoring, AI evaluation denominators, human-review gates, editable records and decision exports.
 - Added accessible risk heatmap filtering and explicit scenario economics with undefined and negative values preserved.
-- Verified 13 JavaScript core tests and five existing Python engine tests; retained public-source provenance and clear operating boundaries.
+- Verified 24 JavaScript tests and nine Python tests; retained public-source provenance and clear operating boundaries.
 
 **Engagement deliverables** — scoped AI governance and supplier/assurance sprints, and recurring governance reviews: inventories, evidence requests, prioritized gaps, treatment registers and management decision memos. Scope and acceptance criteria agreed per engagement.
 
