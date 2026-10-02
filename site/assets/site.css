@@ -762,3 +762,14 @@ th {
 a.route-card:hover{color:inherit;background:var(--soft);transform:translateY(-1px)}
 .decision-routes{padding-top:4rem;padding-bottom:4rem}
 @media(max-width:900px){.route-grid{grid-template-columns:1fr}.route-card{min-height:auto}}
+
+
+/* Conversion clarity: proof boundary, form hierarchy and restrained premium polish */
+.trust-note{border-left:2px solid var(--accent);padding:.9rem 1.1rem;margin:1.25rem 0 2.5rem;background:var(--soft);max-width:78ch}
+.hero .lead{max-width:760px}
+.contact-form{padding-top:.5rem}
+.contact-form label{font-weight:500}
+.contact-form input,.contact-form select,.contact-form textarea{margin-top:.4rem;font-weight:400}
+.contact-form textarea{min-height:180px}
+.primary{font-weight:600}
+@media(max-width:760px){.trust-note{margin:1rem 0 2rem}}
