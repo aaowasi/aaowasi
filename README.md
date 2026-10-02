@@ -1,33 +1,38 @@
 # Abdullah Al Owasi
 
-**GRC & AI Governance | Third-Party Risk | Audit Readiness**
+**GRC · Third-Party Risk · AI Governance · Audit Readiness**
 
-I build connected governance workflows that help teams review AI use cases, vet SaaS and AI vendors, and turn control evidence into accountable decisions.
+I build connected governance workflows that turn AI, supplier and control evidence into reviewable decisions.
 
-[Discuss an engagement](https://aaowasi.pages.dev/contact/) · [Inspect delivery evidence](https://aaowasi-projects.pages.dev/results/) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
+[Personal hub](https://aaowasi.pages.dev/) · [Live governance workspace](https://aaowasi-projects.pages.dev/workspace/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/) · [Delivery evidence](https://aaowasi-projects.pages.dev/results/)
 
-## Defined scope. Inspectable work. Clear handover.
+## What you can inspect
 
-| Engagement | Focus | Deliverables |
+- **10 connected governance modules** spanning AI governance, third-party risk, audit readiness, privacy, technology risk and assurance.
+- **13 GRC operating domains**, **16 shared record types** and **103 register/reporting views** in the continuous GRC suite.
+- Editable browser-local records, transparent scoring rules, evidence states, human review gates and exportable decision memos.
+- Versioned source, validation workflows and recorded delivery checks tied to exact commits.
+
+## Primary work
+
+| Area | What the system demonstrates | Start here |
 |---|---|---|
-| AI governance sprint | AI inventory, NIST AI RMF mapping, evaluation evidence and human oversight | System register, prioritized gaps, release-review memo |
-| AI vendor & supplier assurance sprint | SaaS and LLM integrations, data handling, dependencies and evidence | Reviewed supplier register, evidence requests, treatment plan |
-| Recurring governance review | Evidence expiry, open actions and decision follow-up | Updated register, exception agenda, management summary |
+| AI governance | AI inventory, NIST AI RMF / Generative AI Profile mapping, evaluation evidence, human oversight, release and change review | [Open AI governance](https://aaowasi-projects.pages.dev/workspace/?module=ai-governance) |
+| Third-party & AI vendor risk | SaaS / LLM intake, data handling, subprocessors, assurance evidence, dependency risk and treatment decisions | [Open vendor risk](https://aaowasi-projects.pages.dev/workspace/?module=vendor-risk) |
+| Audit & continuous assurance | Evidence freshness, control-test state, exceptions, retest ownership and management outputs | [Open assurance](https://aaowasi-projects.pages.dev/workspace/?module=continuous-assurance) |
 
-For a bounded seven-day sprint, agree evidence access, decision owners and acceptance criteria at kickoff.
+## Framework focus
 
-## Inspect the systems
+NIST AI RMF 1.0 and NIST AI 600-1 · ISO/IEC 42001:2023 · ISO/IEC 27001:2022 · SOC 2 · NIST CSF 2.0 · GDPR processor governance · EU AI Act transparency
 
-[Ten connected modules](https://aaowasi-projects.pages.dev/workspace/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/) · [Project catalogue](https://aaowasi.pages.dev/work/)
+## Scoped services
 
-Import records, change a source fact, inspect calculated risk signals and export a decision memo. Inspect source code and recorded workflow checks alongside the public interface.
+**AI governance review sprint** — bounded AI inventory, oversight, evaluation evidence, release gates and change review.
 
-Framework focus: NIST AI RMF, NIST CSF, SOC 2, ISO/IEC 27001, ISO/IEC 42001, GDPR processor governance and EU AI transparency.
+**AI vendor & supplier assurance** — structured review of SaaS, LLM and external AI vendors with evidence requests, treatment decisions and remediation ownership.
 
-Open to remote GRC roles and scoped consulting engagements. Based in Petaling Jaya, Malaysia.
+**Continuous assurance review** — evidence expiry, exceptions, retest ownership and concise management reporting.
 
-**Contact:** abdullahalowasi369@gmail.com
+[Send a scope brief](https://aaowasi.pages.dev/contact/) if you have one defined AI use case, vendor set or assurance backlog to review.
 
-## Maintain this website
-
-Edit `content/projects.json`, run `python3 scripts/build_site.py`, then `python3 scripts/check_site.py`. Cloudflare Pages publishes `site`. The projects repository owns the shared catalogue.
+> Public portfolio scenarios use synthetic data so methods, decision logic and guardrails can be inspected without exposing confidential records.
