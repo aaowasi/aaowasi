@@ -1,34 +1,34 @@
 # Abdullah Al Owasi
 
-Governance strategy & delivery · AI risk · Supplier assurance
+**Governance, Risk & Compliance | AI Governance · TPRM · Technology Risk | Audit Readiness & Control Assurance**
 
 Petaling Jaya, Malaysia · abdullahalowasi369@gmail.com
 
-[Portfolio](https://aaowasi.pages.dev/) · [GitHub](https://github.com/aaowasi) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
+[Portfolio](https://aaowasi.pages.dev/) · [Live workspace](https://aaowasi-projects.pages.dev/workspace/) · [GitHub](https://github.com/aaowasi) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
 
 ## Profile
 
-Abdullah Al Owasi builds governance workflows that connect supplier, AI, privacy and control evidence to accountable decisions. His independent portfolio brings ten disciplines into one working risk workspace, with traceable scoring, explicit review gates and exportable management decisions.
+I build connected governance workflows that turn AI, supplier, privacy and control evidence into accountable decisions. My public portfolio is designed to be inspected: source records, evidence states, scoring logic, human review gates, tests and decision outputs are visible instead of hidden behind static screenshots.
 
 ## Core competencies
 
-- AI inventory, oversight, disclosure and evaluation governance
-- Supplier due diligence, processor obligations and dependency analysis
-- Enterprise risk prioritization and accountable treatment decisions
-- Control/evidence mapping, review dates, test outcomes and remediation
-- Python, JavaScript, static-site delivery, JSON/CSV validation and automated testing
+- AI inventory and lifecycle governance; NIST AI RMF / NIST AI 600-1 mapping; human oversight; evaluation evidence; transparency and post-deployment monitoring
+- Third-party and AI vendor risk across SaaS, LLM integrations, data use, subprocessors, assurance evidence and dependency risk
+- Technology-risk prioritization, risk treatment, exceptions, risk acceptance, KRIs and management reporting
+- Audit readiness and continuous assurance: evidence freshness, control-test states, remediation ownership and retest
+- Governance operating models, decision records, escalation paths, accountable ownership and evidence-backed review
 
 ## Selected independent work
 
-**Connected governance workspace** — designed and implemented ten interoperable portfolio modules across AI governance, executive risk, transparency, shadow AI, vendor risk, processor governance, audit readiness, continuous assurance, customer assurance and questionnaires.
+**Connected governance workspace** — ten interoperable modules across AI governance, executive risk, AI transparency, shadow AI, vendor risk, processor governance, audit readiness, continuous assurance, customer assurance and security questionnaires.
 
-- Defined a versioned 30-field contract with 250-record and 10 MB import limits, dependency validation and evidence expiry.
-- Implemented deterministic scoring, AI evaluation denominators, human-review gates, editable records and decision exports.
-- Added accessible risk heatmap filtering and explicit scenario economics with undefined and negative values preserved.
-- Verified 24 JavaScript tests and nine Python tests; retained public-source provenance and clear operating boundaries.
+- Connected shared source records to multiple governance views so one factual change can propagate into risk, evidence and review decisions.
+- Implemented transparent priority scoring, evidence states, human review requirements, editable records and exportable decision memos.
+- Structured AI governance around inventories, evaluation evidence, oversight, release criteria and post-deployment change review.
+- Structured third-party review for SaaS, LLM and external AI vendors across data use, subprocessors, assurance evidence and dependency context.
 
-**Engagement deliverables** — scoped AI governance and supplier/assurance sprints, and recurring governance reviews: inventories, evidence requests, prioritized gaps, treatment registers and management decision memos. Scope and acceptance criteria agreed per engagement.
+**Continuous GRC operating suite** — 13 operating domains, 16 shared record types and 103 register/reporting views for obligations, controls, suppliers, risk, evidence, issues, privacy and AI governance.
 
-## Work basis
+## Evidence boundary
 
-The work above is independent portfolio development using synthesized enterprise scenarios and public reference data. It is not presented as employment, client deployment, certification or achieved financial impact.
+This is independent portfolio development using synthetic enterprise scenarios and public reference material. It is not presented as employment, client deployment, certification, audit opinion or achieved financial impact. Public workflow checks, source code and operating limits are available for inspection.
