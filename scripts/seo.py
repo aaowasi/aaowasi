@@ -11,13 +11,13 @@ def apply_seo(root):
     project=(root/'engine').exists()
     origin='https://aaowasi-projects.pages.dev' if project else 'https://aaowasi.pages.dev'
     descriptions={
-        '/':'Connected AI governance, supplier risk and assurance workflows by Abdullah Al Owasi. Inspect project mechanics, source evidence and scoped review outputs.' if project else 'Evidence-led AI governance, supplier risk and assurance delivery by Abdullah Al Owasi. Inspect the work and scope a governance review.',
-        '/profile/':'Abdullah Al Owasi: governance strategy and delivery, AI risk, supplier assurance and control evidence. Read the executive bio, competencies and resume.',
-        '/services/':'Scope an AI governance sprint, supplier and assurance sprint or recurring governance review with defined evidence, responsibilities and decision outputs.',
-        '/contact/':'Prepare a bounded AI, supplier-risk or assurance review brief: decision needed, available evidence, target date and agreed outputs.',
+        '/':'Connected AI governance, supplier risk and assurance workflows by Abdullah Al Owasi. Inspect project mechanics, source evidence and scoped review outputs.' if project else 'Connected GRC, third-party risk and AI governance workflows by Abdullah Al Owasi. Inspect live decision mechanics, delivery evidence and scoped review services.',
+        '/profile/':'Abdullah Al Owasi: GRC, AI governance, third-party risk, technology risk, audit readiness and evidence-led decision workflows. Inspect role-fit evidence and public delivery mechanics.',
+        '/services/':'Scope an AI governance, AI vendor assurance or continuous assurance review with defined evidence, reviewers, outputs and acceptance criteria.',
+        '/contact/':'Send a decision brief for a GRC role, AI governance review, AI vendor assurance or continuous assurance engagement.',
         '/results/':'Actual public GitHub Actions observations with source timestamps, exact commits and workflow outcomes. Bounded delivery evidence for the AAO portfolio.',
         '/workspace/':'Try ten connected browser-local governance modules with validated metadata imports, risk review, dated evidence and decision exports.',
-        '/work/':'Explore ten connected AI governance, supplier risk and assurance projects, their implementation mechanics and primary sources.'
+        '/work/':'Explore ten connected GRC, AI governance, third-party risk and assurance projects with inspectable decision logic, evidence boundaries and source references.'
     }
     urls=[]
     script_hashes=set()
