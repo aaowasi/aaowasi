@@ -1,51 +1,33 @@
 # Abdullah Al Owasi
 
-**Governance, risk & assurance | AI governance · Technology risk · TPRM · Audit readiness**
+**GRC & AI Governance | Third-Party Risk | Audit Readiness**
 
-I build practical systems that connect control evidence, supplier risk and executive decisions. My focus is accountable governance: clear ownership, defensible findings and a documented path from risk to action.
+I build connected governance workflows that help teams review AI use cases, vet SaaS and AI vendors, and turn control evidence into accountable decisions.
 
-[Personal website](https://aaowasi.pages.dev/) · [Explore the portfolio](https://aaowasi.pages.dev/work/) · [Open the interactive workspace](https://aaowasi-projects.pages.dev/workspace/) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
+[Discuss an engagement](https://aaowasi.pages.dev/contact/) · [Inspect delivery evidence](https://aaowasi-projects.pages.dev/results/) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
 
-## Inspect the work
+## Defined scope. Inspectable work. Clear handover.
 
-| Priority | Portfolio systems | Decision supported |
+| Engagement | Focus | Deliverables |
 |---|---|---|
-| AI governance & advisory | AI lifecycle governance, executive risk, AI transparency, shadow AI | What needs oversight, evidence or an explicit risk decision? |
-| Supplier & processor risk | Third-party due diligence, processor and dependency review | Which supplier conditions need resolution before acceptance? |
-| Enterprise assurance | Audit readiness, continuous assurance, customer assurance, questionnaires | Which claims are supported by current, tested evidence? |
+| AI governance sprint | AI inventory, NIST AI RMF mapping, evaluation evidence and human oversight | System register, prioritized gaps, release-review memo |
+| AI vendor & supplier assurance sprint | SaaS and LLM integrations, data handling, dependencies and evidence | Reviewed supplier register, evidence requests, treatment plan |
+| Recurring governance review | Evidence expiry, open actions and decision follow-up | Updated register, exception agenda, management summary |
 
-The ten projects share an interactive workspace. Import structured metadata, change a supplier or control record, inspect the downstream risk signals and export a decision memo. Each case explains its scenario, input contract, source references, calculation methods and implementation boundaries.
+For a bounded seven-day sprint, agree evidence access, decision owners and acceptance criteria at kickoff.
 
-The portfolio is independent work. Scenario data and modeled economics are identified; they are not client outcomes. Public framework references support review methods, not claims of certification or legal compliance.
+## Inspect the systems
 
-## Engagement focus
+[Ten connected modules](https://aaowasi-projects.pages.dev/workspace/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/) · [Project catalogue](https://aaowasi.pages.dev/work/)
 
-Audit-readiness assessments, evidence and control reviews, vendor-risk decisions, governance reporting and AI-use-case assessments. Open to remote GRC/compliance roles and clearly scoped B2B engagements.
+Import records, change a source fact, inspect calculated risk signals and export a decision memo. Inspect source code and recorded workflow checks alongside the public interface.
 
-Framework focus: NIST CSF 2.0, NIST AI RMF, SOC 2, ISO/IEC 27001 and ISO/IEC 42001 concepts, GDPR processor governance and EU AI transparency.
+Framework focus: NIST AI RMF, NIST CSF, SOC 2, ISO/IEC 27001, ISO/IEC 42001, GDPR processor governance and EU AI transparency.
 
-Based in Petaling Jaya, Malaysia.
+Open to remote GRC roles and scoped consulting engagements. Based in Petaling Jaya, Malaysia.
 
 **Contact:** abdullahalowasi369@gmail.com
 
 ## Maintain this website
 
-Edit `content/projects.json`, then run `python3 scripts/build_site.py` and `python3 scripts/check_site.py`. Cloudflare Pages builds with `python3 scripts/build_site.py` and publishes `site`.
-
-The projects repository owns the catalogue; the existing daily sync updates this hub. See [owner actions](docs/OWNER_ACTIONS.md) and [architecture](docs/ARCHITECTURE.md).
-
-## Governance delivery
-
-Abdullah Al Owasi builds governance workflows that connect supplier, AI, privacy and control evidence to accountable decisions. His independent portfolio brings ten disciplines into one working risk workspace, with traceable scoring, explicit review gates and exportable management decisions.
-
-Scoped offers: AI governance sprint; supplier and assurance sprint; recurring governance review. Each starts with agreed scope, evidence access, reviewer responsibilities and acceptance criteria.
-
-[Professional profile and resume](https://aaowasi.pages.dev/profile/)
-
-## Recorded delivery evidence
-
-[Inspect actual GitHub Actions records](https://aaowasi-projects.pages.dev/results/): three observed workflow checks at pinned commits, with source links and timestamps. Workflow elapsed time includes queue/lifecycle time; it is not audit duration or client ROI. The page uses a checked-in snapshot rather than claiming live status.
-
-
-## Continuous GRC suite
-[Open the connected GRC suite](https://aaowasi-projects.pages.dev/suite/): 13 domains, 16 typed registers and103 named views with editable records, validated links, calculated coverage, risks and review dates. [Operating guide](https://github.com/aaowasi/aaowasi-projects/blob/main/docs/CONTINUOUS-GRC-SUITE.md).
+Edit `content/projects.json`, run `python3 scripts/build_site.py`, then `python3 scripts/check_site.py`. Cloudflare Pages publishes `site`. The projects repository owns the shared catalogue.
