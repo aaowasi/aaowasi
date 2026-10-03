@@ -8,7 +8,7 @@ I build connected governance workflows that make AI, supplier and audit decision
 
 ## What you can inspect
 
-- **10 connected governance modules** spanning AI governance, third-party risk, audit readiness, privacy, technology risk and assurance.
+- **20 connected governance workflows** spanning AI governance, third-party risk, audit readiness, privacy, technology risk and assurance.
 - **13 GRC operating domains**, **16 shared record types** and **103 register/reporting views** in the continuous GRC suite.
 - Editable browser-local records, transparent scoring rules, evidence states, human review gates and exportable decision memos.
 - Versioned source, validation workflows and recorded delivery checks tied to exact commits.
@@ -36,3 +36,7 @@ NIST AI RMF 1.0 and NIST AI 600-1 · ISO/IEC 42001:2023 · ISO/IEC 27001:2022 ·
 [Send a scope brief](https://aaowasi.pages.dev/contact/) if you have one defined AI use case, vendor set or assurance backlog to review.
 
 > Public portfolio scenarios use synthetic data so methods, decision logic and guardrails can be inspected without exposing confidential records.
+
+## Connected coverage
+
+Regulatory obligations, policy governance, internal audit, corrective actions, cyber controls, resilience, KRIs, program oversight, privacy lifecycle and control effectiveness extend the specialist AI, supplier and assurance workflows. [Explore coverage](https://aaowasi.pages.dev/capabilities/).
