@@ -1,5 +1,22 @@
 {
   "version": 2,
   "outputDirectory": "site",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/approach/",
+      "destination": "/services/#process",
+      "permanent": true
+    },
+    {
+      "source": "/faq/",
+      "destination": "/services/#questions",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities/",
+      "destination": "/work/#coverage",
+      "permanent": true
+    }
+  ]
 }

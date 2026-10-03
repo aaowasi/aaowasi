@@ -39,4 +39,4 @@ NIST AI RMF 1.0 and NIST AI 600-1 · ISO/IEC 42001:2023 · ISO/IEC 27001:2022 ·
 
 ## Connected coverage
 
-Regulatory obligations, policy governance, internal audit, corrective actions, cyber controls, resilience, KRIs, program oversight, privacy lifecycle and control effectiveness extend the specialist AI, supplier and assurance workflows. [Explore coverage](https://aaowasi.pages.dev/capabilities/).
+Regulatory obligations, policy governance, internal audit, corrective actions, cyber controls, resilience, KRIs, program oversight, privacy lifecycle and control effectiveness extend the specialist AI, supplier and assurance workflows. [Explore coverage](https://aaowasi.pages.dev/work/#coverage).

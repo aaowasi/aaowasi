@@ -56,7 +56,7 @@ print('Generated catalogue:',len(data),'projects')
 shutil.copyfile(ROOT/'templates/profile.html', ROOT/'site/profile/index.html')
 shutil.copyfile(ROOT/'docs/Abdullah-Al-Owasi-Resume.md', ROOT/'site/assets/Abdullah-Al-Owasi-Resume.md')
 
-for route in ['services', 'contact', 'approach', 'capabilities', 'faq']:
+for route in ['services', 'contact']:
  (ROOT/'site'/route).mkdir(exist_ok=True)
  shutil.copyfile(ROOT/'templates'/(route+'.html'),ROOT/'site'/route/'index.html')
 
