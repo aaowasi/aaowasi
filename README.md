@@ -1,8 +1,8 @@
 # Abdullah Al Owasi
 
-**Connected GRC Workflows · AI Governance · Third-Party AI/LLM Risk · Audit Readiness**
+**GRC & Technology Risk | AI Governance | Supplier Assurance & Audit Readiness**
 
-I build traceable risk decision systems that connect AI and supplier records, evidence tests, drift/change signals and human review.
+I build connected governance workflows that make AI, supplier and audit decisions easier to inspect. Source records, evidence gaps, review gates and accountable next actions stay connected.
 
 [Decision brief](https://aaowasi.pages.dev/contact/) · [Live governance workspace](https://aaowasi-projects.pages.dev/workspace/) · [Delivery evidence](https://aaowasi-projects.pages.dev/results/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/)
 
