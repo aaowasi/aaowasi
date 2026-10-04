@@ -1,0 +1,39 @@
+{
+  "sourceFingerprint": "ef85f5ccebf50e35e2fba813133bccb7ae20a7362e2c3f022bff80eb4ba7b8da",
+  "projectCount": 29,
+  "routes": [
+    "/contact/",
+    "/docs/",
+    "//",
+    "/privacy/",
+    "/profile/",
+    "/services/",
+    "/terms/",
+    "/work/"
+  ],
+  "sources": [
+    ".github/workflows/production.yml",
+    ".github/workflows/site.yml",
+    ".github/workflows/sync.yml",
+    "content/domain-reviews.json",
+    "content/projects.json",
+    "content/suite-catalog.json",
+    "schemas/project.schema.json",
+    "scripts/build_docs.py",
+    "scripts/build_site.py",
+    "scripts/check_contract.py",
+    "scripts/check_deployment.py",
+    "scripts/check_site.py",
+    "scripts/seo.py",
+    "scripts/sync_catalogue.py",
+    "site/404.html",
+    "site/assets/site.css",
+    "site/assets/site.js",
+    "site/privacy/index.html",
+    "templates/contact.html",
+    "templates/gallery.html",
+    "templates/home.html",
+    "templates/profile.html",
+    "templates/services.html"
+  ]
+}

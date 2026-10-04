@@ -4,7 +4,7 @@
 
 Petaling Jaya, Malaysia · abdullahalowasi369@gmail.com
 
-[Portfolio](https://aaowasi.pages.dev/) · [Live workspace](https://aaowasi-projects.pages.dev/workspace/) · [GitHub](https://github.com/aaowasi) · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
+[Portfolio](https://aaowasi.pages.dev/) · [Live workspace](https://aaowasi-projects.pages.dev/workspace/) · [GitHub](https://github.com/aaowasi/aaowasi-projects/blob/main/DOCS.md · [LinkedIn](https://www.linkedin.com/in/aaowasi/)
 
 ## Profile
 

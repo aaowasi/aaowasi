@@ -62,5 +62,7 @@ for route in ['services', 'contact']:
 
 for page in (ROOT/'site').rglob('*.html'):
  page.write_text(page.read_text().replace('{{DOMAIN_COUNT}}',str(len(data))))
+from build_docs import generate
+generate(ROOT)
 from seo import apply_seo
 apply_seo(ROOT)
