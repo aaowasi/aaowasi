@@ -27,8 +27,8 @@ for p in data:
  elif p.get('liveUrl'):actions[0]=(p['liveUrl'],'Explore work')
  primary=actions[0][0] if actions else None
  title='<a href="'+e(primary,quote=True)+'">'+e(p['title'])+'</a>' if primary else e(p['title'])
- buttons=''.join('<a href="'+e(u,quote=True)+'">'+e(label)+' ↗</a>' for u,label in actions[:3])
- cards.append('<article class="card" data-project data-domain="'+e(p['domain'],quote=True)+'" data-type="'+e(p['type'],quote=True)+'"><div class="visual" aria-hidden="true"><span>'+e(p['id'])+'</span><small>'+e(p['domain'])+'<br>Evidence / decisions</small></div><span class="eyebrow">'+e(p['domain'])+' / '+e(p['type'])+'</span><h3>'+title+'</h3><p>'+e(p['summary'])+'</p><p class="chips">'+e(' · '.join(p.get('frameworks',[])[:3]))+'</p><div class="actions">'+buttons+'</div></article>')
+ buttons=''.join('<a href="'+e(u,quote=True)+'">'+e(label)+' ↗</a>' for u,label in actions)
+ cards.append('<article class="card" data-project data-domain="'+e(p['domain'],quote=True)+'" data-type="'+e(p['type'],quote=True)+'"><div class="visual" aria-hidden="true"><span>'+e(p['id'])+'</span><small>'+e(p['domain'])+'<br>Evidence / decisions</small></div><span class="eyebrow">'+e(p['domain'])+' / '+e(p['type'])+'</span><h3>'+title+'</h3><p>'+e(p['summary'])+'</p><p class="chips">'+e(' · '.join(p.get('frameworks',[])))+'</p><div class="actions">'+buttons+'</div></article>')
  if IS_PROJECT and p.get('sourcePath'):
   manifest=json.loads((ROOT/p['sourcePath']).read_text())
   template=(ROOT/'templates/project.html').read_text()
@@ -44,7 +44,7 @@ shutil.copyfile(ROOT/'content/projects.json',ROOT/'site/data/projects.json')
 # Refresh the hub's selected-work links and descriptions from the same catalogue.
 if not IS_PROJECT:
  template=(ROOT/'templates/home.html').read_text()
- chosen=sorted([p for p in data if p.get('featured')],key=lambda p:p.get('featuredOrder',99))[:3]
+ chosen=sorted([p for p in data if p.get('featured')],key=lambda p:p.get('featuredOrder',99))
  rows=[]
  for i,p in enumerate(chosen):
   u=next((safe_url(p.get(k,'')) for k in ['liveUrl','caseStudyUrl','downloadUrl','codeUrl'] if p.get(k)), '/work/')
@@ -60,5 +60,7 @@ for route in ['services', 'contact']:
  (ROOT/'site'/route).mkdir(exist_ok=True)
  shutil.copyfile(ROOT/'templates'/(route+'.html'),ROOT/'site'/route/'index.html')
 
+for page in (ROOT/'site').rglob('*.html'):
+ page.write_text(page.read_text().replace('{{DOMAIN_COUNT}}',str(len(data))))
 from seo import apply_seo
 apply_seo(ROOT)

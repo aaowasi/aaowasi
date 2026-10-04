@@ -20,14 +20,14 @@ I build connected governance workflows that turn AI, supplier, privacy, drift/ch
 
 ## Selected independent work
 
-**Connected governance workspace** — ten interoperable modules across AI governance, executive risk, AI transparency, shadow AI, vendor risk, processor governance, audit readiness, continuous assurance, customer assurance and security questionnaires.
+**Connected governance workspace** — dedicated domain projects and interoperable decision modules across AI governance, executive risk, AI transparency, shadow AI, vendor risk, processor governance, audit readiness, continuous assurance, customer assurance and security questionnaires.
 
 - Connected shared source records to multiple governance views so one factual change can propagate into risk, evidence and review decisions.
 - Implemented transparent priority scoring, evidence states, human review requirements, editable records and exportable decision memos.
 - Structured AI governance around inventories, evaluation evidence, oversight, release criteria and post-deployment drift/change review.
 - Structured third-party review for SaaS, LLM and external AI vendors across data use, subprocessors, assurance evidence and dependency context.
 
-**Continuous GRC operating suite** — 13 operating domains, 16 shared record types and 103 register/reporting views for obligations, controls, suppliers, risk, evidence, issues, privacy and AI governance.
+**Continuous GRC operating suite** — the catalogue-defined governance domains, 16 shared record types and catalogue-driven register/reporting views for obligations, controls, suppliers, risk, evidence, issues, privacy and AI governance.
 
 ## Evidence boundary
 
