@@ -2,7 +2,7 @@
 
 Generated from 29 active domain projects, 16 record types and 132 register/reporting views.
 
-Source contract SHA-256: `800dc7be615e52b139f63351f444939a68a451560a7c8a279223a63d6f585877`
+Source contract SHA-256: `6ae1a7d1e2641e00443617fb6b7401386a2bcaba2f2bfed01b86c562ade9d8a8`
 
 ## System overview
 
@@ -872,8 +872,9 @@ This inventory is generated from the shipped HTML. Repeated controls appear once
 | Work | Opens the named dedicated project with review scope, readiness inputs, evidence needs and dependency links. Destination: `/work/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Services | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/services/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Contact ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
-| Discuss scope ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Request an implementation scope ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Engagement questions → | Moves to the matching page section; project details expand on hash navigation. No records are changed. Destination: `#questions`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Inspect the community and enterprise boundary → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/enterprise/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | What will I receive? | Expands or collapses this explanation without changing data. Keyboard Enter/Space activates it. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | How are scope and price agreed? | Expands or collapses this explanation without changing data. Keyboard Enter/Space activates it. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Can my team maintain the outputs? | Expands or collapses this explanation without changing data. Keyboard Enter/Space activates it. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
@@ -1319,3 +1320,8 @@ templates/services.html
 ## Licensing and terms
 
 Both repositories retain their existing AGPL-3.0 open-source LICENSE. TERMS_AND_CONDITIONS.md explains the public tool boundaries, acceptable use, data handling, service scope and distinction between code rights and advisory contracts. Required license and authorship notices are preserved. Referencing a framework does not imply affiliation or accreditation.
+
+
+## Open core and commercial delivery
+
+The AGPL-3.0 local core remains free to inspect, run and use under its license. Paid engagements cover bounded review, implementation, integration, training and scheduled support. Managed storage, SSO/roles, operated collectors and reporting are delivery scopes, not activated subscription features. The enterprise page request-scope action opens the personal contact brief; inspect-workspace opens the existing free core; organization-access opens the configured evaluation access route. No purchase or access entitlement is granted by these links. See https://aaowasi-projects.pages.dev/enterprise/ and the projects repository COMMERCIALIZATION.md for scope, proposed pricing, buyer demo guidance and release gates.

@@ -117,3 +117,7 @@ flowchart TD
 - D29 **Assessment, authorization & ongoing monitoring** → [project](https://aaowasi-projects.pages.dev/work/ongoing-authorization/) → [workspace](https://aaowasi-projects.pages.dev/workspace/?domain=ongoing-authorization)
 
 <!-- GENERATED-ARCHITECTURE:END -->
+
+## Enterprise implementation and advisory
+
+The connected governance core is open source under AGPL-3.0. Paid scopes cover AI governance readiness, supplier assurance, control-to-evidence mapping, deployment, integration and scheduled support. [Review the enterprise delivery boundary](https://aaowasi-projects.pages.dev/enterprise/) or [request an implementation scope](https://aaowasi.pages.dev/contact/). Managed SaaS features require a contracted deployment; no active subscription is claimed.
