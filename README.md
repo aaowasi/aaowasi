@@ -2,7 +2,7 @@
 
 **GRC & Technology Risk | AI Governance | Supplier Assurance & Audit Readiness**
 
-I build connected governance workflows that make AI, supplier and audit decisions easier to inspect. Source records, evidence gaps, review gates and accountable next actions stay connected.
+AI use-case review packs, supplier decision packs and control evidence readiness — defined inputs, traceable findings, accountable actions and an editable handover. Inspect the domain-specific calculations and source before scoping an engagement or discussing role fit.
 
 [Decision brief](https://aaowasi.pages.dev/contact/) · [Live governance workspace](https://aaowasi-projects.pages.dev/workspace/) · [Delivery evidence](https://aaowasi-projects.pages.dev/results/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/)
 
@@ -17,9 +17,9 @@ I build connected governance workflows that make AI, supplier and audit decision
 
 | Area | What the system demonstrates | Start here |
 |---|---|---|
-| AI governance | AI inventory, NIST AI RMF / Generative AI Profile mapping, evaluation evidence, human oversight, release and change review | [Open AI governance](https://aaowasi-projects.pages.dev/workspace/?module=ai-governance) |
-| Third-party & AI vendor risk | SaaS / LLM intake, data handling, subprocessors, assurance evidence, dependency risk and treatment decisions | [Open vendor risk](https://aaowasi-projects.pages.dev/workspace/?module=vendor-risk) |
-| Audit & continuous assurance | Evidence freshness, control-test state, exceptions, retest ownership and management outputs | [Open assurance](https://aaowasi-projects.pages.dev/workspace/?module=continuous-assurance) |
+| AI governance | AI inventory, NIST AI RMF / Generative AI Profile mapping, evaluation evidence, human oversight, release and change review | [Open AI governance](https://aaowasi-projects.pages.dev/work/ai-governance/) |
+| Third-party & AI vendor risk | SaaS / LLM intake, data handling, subprocessors, assurance evidence, dependency risk and treatment decisions | [Open vendor risk](https://aaowasi-projects.pages.dev/work/vendor-risk/) |
+| Audit & continuous assurance | Evidence freshness, control-test state, exceptions, retest ownership and management outputs | [Open assurance](https://aaowasi-projects.pages.dev/work/continuous-assurance/) |
 
 ## Framework focus
 
