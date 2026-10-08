@@ -2,7 +2,7 @@
 
 Generated from 29 active domain projects, 16 record types and 132 register/reporting views.
 
-Source contract SHA-256: `6ae1a7d1e2641e00443617fb6b7401386a2bcaba2f2bfed01b86c562ade9d8a8`
+Source contract SHA-256: `c5f108eda5274ad887e8397f589f5b0039d627ce04ec6fa64e355a4c9b0f6f58`
 
 ## System overview
 
@@ -61,8 +61,8 @@ The personal hub and portfolio alias have separate browser origins. Device stora
 ## State, validation and calculations
 
 - Typed suite: `version: 1`, `records`, `updatedAt`; up to 5,000 records and 20 MB. Each record has an entity type, stable ID and optional domainSlug. Unknown fields, duplicate IDs, invalid typed references and vendor dependency cycles are rejected before committing.
-- Inspector: one domain checklist per project, owner, boundary, reviewer, HTTPS evidence reference, validity date and qualitative likelihood/impact. Readiness = confirmed checks / checklist length. Any missing scope, owner, reviewer, invalid evidence reference, expired evidence or unconfirmed check holds the gate. Even a complete gate only means ready for accountable review.
-- Qualitative inspector risk = likelihood × impact (1–5 each), high ≥15, moderate ≥8. The typed suite high-risk threshold is ≥15. Decision Lab uses its documented separate policy: high ≥16 and moderate ≥9 after signal points and evidence credit. These are prioritization policies, not probabilities or interchangeable score scales.
+- Inspector: one domain checklist per project, owner, boundary, reviewer, HTTPS evidence reference, validity date and domain-specific decision inputs. Readiness = confirmed checks / checklist length. Any missing scope, owner, reviewer, invalid evidence reference, expired evidence or unconfirmed check holds the gate. Even a complete gate only means ready for accountable review.
+- Domain inspectors use coverage, declared tolerance, applicable deadline or recovery objective calculations. The separate typed suite high-risk threshold is ≥15. Decision Lab uses its documented separate policy: high ≥16 and moderate ≥9 after signal points and evidence credit. These are prioritization policies, not probabilities or interchangeable score scales.
 - Typed control coverage joins scoped controls to all linked tests, including tests assigned to another domain. Only passing tests within the reporting-date validity period count. A passing test requires evidence URL, named reviewer and test date.
 - Decision Lab: `schemaVersion: 1.0`; up to 250 records and 10 MB. A linked supplier/AI record carries evidence state, test result, reviewer, disclosure, oversight and processor metadata. Ten specialist views derive supplier, AI, evidence and questionnaire review signals. Import/export cannot silently interchange this model with the typed suite.
 - In-memory edits are lost on page reload unless explicitly exported (or saved via the typed suite device-save button). Readiness review JSON is a report, not a suite import. Saving a form is an assertion, not evidence-content verification.
@@ -75,7 +75,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D01: Corporate governance & accountability
 
-**What and how:** [Corporate governance & accountability](https://aaowasi-projects.pages.dev/work/governance-program/) uses the `decision` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Corporate governance & accountability](https://aaowasi-projects.pages.dev/work/governance-program/) uses the `decision` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Named owners, decisions and review dates. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -96,7 +96,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D02: Enterprise risk & appetite
 
-**What and how:** [Enterprise risk & appetite](https://aaowasi-projects.pages.dev/work/executive-risk/) uses the `risk` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Enterprise risk & appetite](https://aaowasi-projects.pages.dev/work/executive-risk/) uses the `risk` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Likelihood, impact, treatment and acceptance. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -117,7 +117,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D03: Regulatory applicability & change
 
-**What and how:** [Regulatory applicability & change](https://aaowasi-projects.pages.dev/work/regulatory-obligations/) uses the `obligation` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Regulatory applicability & change](https://aaowasi-projects.pages.dev/work/regulatory-obligations/) uses the `obligation` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Jurisdiction, applicable requirement and effective date. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -138,7 +138,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D04: Policy lifecycle
 
-**What and how:** [Policy lifecycle](https://aaowasi-projects.pages.dev/work/policy-governance/) uses the `policy` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Policy lifecycle](https://aaowasi-projects.pages.dev/work/policy-governance/) uses the `policy` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Version, ownership and attestation. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -159,7 +159,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D05: Control implementation & ownership
 
-**What and how:** [Control implementation & ownership](https://aaowasi-projects.pages.dev/work/control-management/) uses the `control` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Control implementation & ownership](https://aaowasi-projects.pages.dev/work/control-management/) uses the `control` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Requirement → control → owner. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -180,7 +180,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D06: Internal audit & independence
 
-**What and how:** [Internal audit & independence](https://aaowasi-projects.pages.dev/work/internal-audit/) uses the `audit` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Internal audit & independence](https://aaowasi-projects.pages.dev/work/internal-audit/) uses the `audit` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Plan, finding and corrective action. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -201,7 +201,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D07: External audit & certification readiness
 
-**What and how:** [External audit & certification readiness](https://aaowasi-projects.pages.dev/work/audit-readiness/) uses the `test` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [External audit & certification readiness](https://aaowasi-projects.pages.dev/work/audit-readiness/) uses the `test` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Reviewed tests and dated evidence. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -222,7 +222,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D08: Continuous assurance & remediation
 
-**What and how:** [Continuous assurance & remediation](https://aaowasi-projects.pages.dev/work/continuous-assurance/) uses the `issue` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Continuous assurance & remediation](https://aaowasi-projects.pages.dev/work/continuous-assurance/) uses the `issue` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Evidence expiry, failed tests and treatment. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -243,7 +243,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D09: Supplier lifecycle & concentration
 
-**What and how:** [Supplier lifecycle & concentration](https://aaowasi-projects.pages.dev/work/vendor-risk/) uses the `vendor` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Supplier lifecycle & concentration](https://aaowasi-projects.pages.dev/work/vendor-risk/) uses the `vendor` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Tier, dependencies and exit conditions. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -264,7 +264,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D10: Procurement & customer assurance
 
-**What and how:** [Procurement & customer assurance](https://aaowasi-projects.pages.dev/work/customer-assurance/) uses the `contract` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Procurement & customer assurance](https://aaowasi-projects.pages.dev/work/customer-assurance/) uses the `contract` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Requirements and evidence-backed answers. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -285,7 +285,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D11: Privacy & individual rights
 
-**What and how:** [Privacy & individual rights](https://aaowasi-projects.pages.dev/work/privacy-lifecycle/) uses the `processing` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Privacy & individual rights](https://aaowasi-projects.pages.dev/work/privacy-lifecycle/) uses the `processing` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Purpose, retention and impact review. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -306,7 +306,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D12: Processors & cross-border transfers
 
-**What and how:** [Processors & cross-border transfers](https://aaowasi-projects.pages.dev/work/processor-governance/) uses the `contract` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Processors & cross-border transfers](https://aaowasi-projects.pages.dev/work/processor-governance/) uses the `contract` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** DPA, subprocessors and transfer mechanism. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -327,7 +327,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D13: Data classification & retention
 
-**What and how:** [Data classification & retention](https://aaowasi-projects.pages.dev/work/data-governance/) uses the `processing` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Data classification & retention](https://aaowasi-projects.pages.dev/work/data-governance/) uses the `processing` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Data owner, classification and deletion review. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -348,7 +348,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D14: AI inventory & lifecycle authorization
 
-**What and how:** [AI inventory & lifecycle authorization](https://aaowasi-projects.pages.dev/work/ai-governance/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [AI inventory & lifecycle authorization](https://aaowasi-projects.pages.dev/work/ai-governance/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Inventory, evaluation and deployment decision. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -369,7 +369,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D15: AI fairness, safety & oversight
 
-**What and how:** [AI fairness, safety & oversight](https://aaowasi-projects.pages.dev/work/ai-safety/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [AI fairness, safety & oversight](https://aaowasi-projects.pages.dev/work/ai-safety/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Evaluation findings and human review gates. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -390,7 +390,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D16: AI transparency & content provenance
 
-**What and how:** [AI transparency & content provenance](https://aaowasi-projects.pages.dev/work/ai-transparency/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [AI transparency & content provenance](https://aaowasi-projects.pages.dev/work/ai-transparency/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Disclosure decision and evidence. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -411,7 +411,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D17: Shadow AI & acceptable use
 
-**What and how:** [Shadow AI & acceptable use](https://aaowasi-projects.pages.dev/work/shadow-ai/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Shadow AI & acceptable use](https://aaowasi-projects.pages.dev/work/shadow-ai/) uses the `ai` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Use-case intake and egress review. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -432,7 +432,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D18: Continuity, recovery & crisis readiness
 
-**What and how:** [Continuity, recovery & crisis readiness](https://aaowasi-projects.pages.dev/work/resilience/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Continuity, recovery & crisis readiness](https://aaowasi-projects.pages.dev/work/resilience/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Critical services, recovery objectives and exercise evidence. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -453,7 +453,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D19: Incident governance & reporting
 
-**What and how:** [Incident governance & reporting](https://aaowasi-projects.pages.dev/work/remediation/) uses the `issue` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Incident governance & reporting](https://aaowasi-projects.pages.dev/work/remediation/) uses the `issue` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Incident owner, escalation and corrective action. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -474,7 +474,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D20: Workforce, physical & organizational security
 
-**What and how:** [Workforce, physical & organizational security](https://aaowasi-projects.pages.dev/work/workforce-security/) uses the `policy` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Workforce, physical & organizational security](https://aaowasi-projects.pages.dev/work/workforce-security/) uses the `policy` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Control and review records; specialist assessment required. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -495,7 +495,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D21: Financial, fraud & ethical conduct risk
 
-**What and how:** [Financial, fraud & ethical conduct risk](https://aaowasi-projects.pages.dev/work/financial-conduct/) uses the `risk` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Financial, fraud & ethical conduct risk](https://aaowasi-projects.pages.dev/work/financial-conduct/) uses the `risk` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Exposure and risk decisions; specialist assessment required. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -516,7 +516,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D22: Sector, market & contractual obligations
 
-**What and how:** [Sector, market & contractual obligations](https://aaowasi-projects.pages.dev/work/sector-assurance/) uses the `obligation` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Sector, market & contractual obligations](https://aaowasi-projects.pages.dev/work/sector-assurance/) uses the `obligation` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Applicability review; sector-specific controls require scoping. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -537,7 +537,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D23: Security scope & authorization boundary
 
-**What and how:** [Security scope & authorization boundary](https://aaowasi-projects.pages.dev/work/security-boundary/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Security scope & authorization boundary](https://aaowasi-projects.pages.dev/work/security-boundary/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Asset scope and system boundary; deployment architecture review. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -558,7 +558,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D24: Identity, least privilege & segregation
 
-**What and how:** [Identity, least privilege & segregation](https://aaowasi-projects.pages.dev/work/identity-authorization/) uses the `control` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Identity, least privilege & segregation](https://aaowasi-projects.pages.dev/work/identity-authorization/) uses the `control` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** IAM evidence and authorization policy source. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -579,7 +579,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D25: Cloud configuration & change
 
-**What and how:** [Cloud configuration & change](https://aaowasi-projects.pages.dev/work/cloud-change/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Cloud configuration & change](https://aaowasi-projects.pages.dev/work/cloud-change/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Configuration events and control decisions. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -600,7 +600,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D26: Threat, vulnerability & supply-chain assurance
 
-**What and how:** [Threat, vulnerability & supply-chain assurance](https://aaowasi-projects.pages.dev/work/threat-supply-chain/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Threat, vulnerability & supply-chain assurance](https://aaowasi-projects.pages.dev/work/threat-supply-chain/) uses the `asset` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Alert normalization and remediation priorities. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -621,7 +621,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D27: Logging, evidence integrity & provenance
 
-**What and how:** [Logging, evidence integrity & provenance](https://aaowasi-projects.pages.dev/work/evidence-integrity/) uses the `test` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Logging, evidence integrity & provenance](https://aaowasi-projects.pages.dev/work/evidence-integrity/) uses the `test` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Source timestamps and evidence validation. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -642,7 +642,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D28: Agent, tool & data authorization
 
-**What and how:** [Agent, tool & data authorization](https://aaowasi-projects.pages.dev/work/agent-authorization/) uses the `decision` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Agent, tool & data authorization](https://aaowasi-projects.pages.dev/work/agent-authorization/) uses the `decision` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Agent/tool authorization policies and human escalation. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -663,7 +663,7 @@ Cloudflare Pages Functions expose `/api/status`, `/api/login`, `/api/account`, `
 
 ### D29: Assessment, authorization & ongoing monitoring
 
-**What and how:** [Assessment, authorization & ongoing monitoring](https://aaowasi-projects.pages.dev/work/ongoing-authorization/) uses the `decision` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a qualitative risk score and an exportable JSON review.
+**What and how:** [Assessment, authorization & ongoing monitoring](https://aaowasi-projects.pages.dev/work/ongoing-authorization/) uses the `decision` typed register and its domain-specific readiness checklist. Inputs produce dated evidence gaps, ownership requests, a domain-specific assessment and an exportable version-2 JSON review.
 
 **Why it exists:** Review packages; authorization remains with designated authority. Unowned or unsupported decisions create follow-up work and uncertain review boundaries.
 
@@ -800,7 +800,7 @@ This inventory is generated from the shipped HTML. Repeated controls appear once
 | Work | Opens the named dedicated project with review scope, readiness inputs, evidence needs and dependency links. Destination: `/work/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Services | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/services/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Contact ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
-| Discuss a role or review ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Scope a review pack ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Inspect the working model → | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?module=vendor-risk`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | AI inventory & lifecycle authorization | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?domain=ai-governance`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | ↗ | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?domain=ai-governance`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |

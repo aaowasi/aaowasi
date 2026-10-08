@@ -42,6 +42,12 @@ NIST AI RMF 1.0 and NIST AI 600-1 · ISO/IEC 42001:2023 · ISO/IEC 27001:2022 ·
 Regulatory obligations, policy governance, internal audit, corrective actions, cyber controls, resilience, KRIs, program oversight, privacy lifecycle and control effectiveness extend the specialist AI, supplier and assurance workflows. [Explore coverage](https://aaowasi.pages.dev/work/#coverage).
 
 
+## Decision-specific delivery
+
+Start with an AI use-case review pack, supplier decision pack or control evidence readiness pack. Each dedicated domain uses its own inputs and calculations: coverage, tolerance, elapsed deadline or recovery objective. Shared evidence provenance connects the outputs; human reviewers retain decision authority.
+
+[Review enterprise delivery](https://aaowasi-projects.pages.dev/enterprise/) · [Inspect all domain workflows](https://aaowasi-projects.pages.dev/workspace/) · [Discuss a role](https://aaowasi.pages.dev/profile/)
+
 <!-- GENERATED-ARCHITECTURE:START -->
 
 ## Live architecture and route map
