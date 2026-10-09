@@ -1,0 +1,15 @@
+/* Source-controlled conversion components that inherit the existing quiet-luxury palette */
+.conversion-micro{font-size:.8rem;letter-spacing:.02em;color:var(--muted);margin-top:1rem}
+.premium-hero .actions{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center}
+.conversion-strip{border-block:1px solid var(--line);padding-block:1.6rem}
+.conversion-tags{display:flex;flex-wrap:wrap;gap:.7rem;margin:1.2rem 0}
+.conversion-tags span{display:inline-flex;align-items:center;padding:.35rem .9rem;border-radius:100px;border:1px solid var(--line);color:var(--fg);font-size:.82rem;letter-spacing:.03em;background:var(--soft)}
+.conversion-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:2rem 0}
+.conversion-grid article{padding:clamp(1.25rem,2.5vw,2rem);border:1px solid var(--line);background:var(--soft);border-radius:14px;display:flex;flex-direction:column;align-items:flex-start}
+.conversion-grid article>span{font-size:.74rem;text-transform:uppercase;letter-spacing:.15em;color:var(--accent)}
+.conversion-grid article h3{font-size:clamp(1.3rem,2.5vw,1.9rem);line-height:1.25;margin:1rem 0}
+.conversion-grid article p{color:var(--muted);line-height:1.65}
+.conversion-grid article a{margin-top:auto;padding-top:1rem;text-decoration:underline;text-underline-offset:.2em}
+.conversion-triad>h2{max-width:760px}
+@media(max-width:800px){.conversion-grid{grid-template-columns:1fr}.conversion-grid article{min-height:unset}}
+@media(prefers-reduced-motion:reduce){.conversion-grid *{transition:none!important}}
