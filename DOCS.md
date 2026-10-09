@@ -2,7 +2,7 @@
 
 Generated from 29 active domain projects, 16 record types and 132 register/reporting views.
 
-Source contract SHA-256: `cbd19a94d310c8f433006abd6c8ebacf37333af369d605ed83d946557cd51e27`
+Source contract SHA-256: `e2e2410e4b251325d72c2a7367de47effe90cb612f78c2ca6cf3a90243f64f45`
 
 ## System overview
 
@@ -885,8 +885,8 @@ This inventory is generated from the shipped HTML. Repeated controls appear once
 | Services | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/services/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Contact ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Request fixed-scope quotation ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Inspect three executable sample outputs → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/outcomes/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Open interactive executive risk dashboard → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/control-center/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
-| Inspect three executable sample outputs → Open interactive executive risk dashboard → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/outcomes/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Engagement questions → | Moves to the matching page section; project details expand on hash navigation. No records are changed. Destination: `#questions`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Inspect the community and enterprise boundary → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/enterprise/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | What will I receive? | Expands or collapses this explanation without changing data. Keyboard Enter/Space activates it. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
