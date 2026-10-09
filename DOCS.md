@@ -2,7 +2,7 @@
 
 Generated from 29 active domain projects, 16 record types and 132 register/reporting views.
 
-Source contract SHA-256: `e2e2410e4b251325d72c2a7367de47effe90cb612f78c2ca6cf3a90243f64f45`
+Source contract SHA-256: `85c21df9eeeb89577675fd8e369c1260df53fc36a0b806127dcbff4cb1b02b6e`
 
 ## System overview
 
@@ -1351,6 +1351,15 @@ The public hub /, /services/ and /contact/ present bounded review packs as finis
 **D14-1:** AI vendor onboarding, 4 × 4 inherent risk, +8 missing-approval/processor/transfer signals = risk priority 24/25, HIGH / HOLD. Missing Article 50 disclosure review and GDPR Article 28 information are review flags and must not be called proven statutory noncompliance. **D07-2:** 3/3 documented domain assertions and 1/1 passing, dated test produce 100% recorded readiness/coverage in a synthetic audit scenario; HTTPS example links are not fetched, authentic or externally verified. **D12-3:** shadow-AI cross-border PII with 3 × 4 inherent plus 8 metadata flags = priority 20/25. Its conditional 72-hour awareness clock is an illustration and does not establish the actual controller's GDPR Article 33 reporting obligation.
 
 Use original version-1 sample JSON as import into the typed Workspace or schemaVersion-1.0 Decision Lab. Exported version-2 Decision Pack and Markdown memo are deliverables, not original import files. All 29 domains still maintain independent assertions and shared upstream/downstream metadata; acceptance remains with a named human reviewer. No daily regulatory feed or 190-country coverage is represented as operational.
+
+
+## Interactive executive GRC control center and client delivery proof
+
+The personal homepage, services, contact and professional profile now route to https://aaowasi-projects.pages.dev/control-center/ for direct, browser-only evidence of the connected governance system. It has a 5×5 inherent risk heatmap, explicit residual risk assessments, editable illustrative appetite, passing control test coverage, 90/180-day evidence-age signals, overdue issues, incident-classified issue queue, and framework-linked obligation coverage. Nothing is uploaded when a user selects a synthetic JSON; the user can export a Version-2 decision pack and a Markdown executive brief. This is not a legal compliance or SOC 2/ISO certification opinion.
+
+Thresholds: High inherent or residual likelihood×impact 16–25, Moderate 9–15, Low 1–8. Controls require a recorded passing test, in-date expiry, named reviewer and HTTPS-formatted evidence metadata at the user-chosen reporting snapshot; a URL is not dereferenced or independently verified. Empty control denominators are N/A. The client-facing dashboard also transparently projects synthetic Decision Lab inherent risk into the heatmap WITHOUT modifying an editable typed suite register or inventing residual risk.
+
+Use https://aaowasi-projects.pages.dev/outcomes/ or the domain-specific /work/{slug}/ route to download/import scenarioVersion:1 JSON, observe visible recalculation and reviewer action queue, and export the Version-2 decision output. Scenario imports explicitly replace only in-browser active demo state; Decision Lab supports Undo. Live multi-tenant system integration and authorization require separately agreed work and are not included in public portfolio functionality.
 
 
 ## Executable scenarios
