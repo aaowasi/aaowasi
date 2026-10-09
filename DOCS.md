@@ -2,7 +2,7 @@
 
 Generated from 29 active domain projects, 16 record types and 132 register/reporting views.
 
-Source contract SHA-256: `0d8295e2bcdbbdc1855d0fb9cf292599a4ed2e05858f868aebca6e973a09b44f`
+Source contract SHA-256: `f6173a247169f5a489afa1bb94401293b9a2527ffd04d4bfa961706598784436`
 
 ## System overview
 
@@ -1336,6 +1336,15 @@ Both repositories retain their existing AGPL-3.0 open-source LICENSE. TERMS_AND_
 ## Open core and commercial delivery
 
 The AGPL-3.0 local core remains free to inspect, run and use under its license. Paid engagements cover bounded review, implementation, integration, training and scheduled support. Managed storage, SSO/roles, operated collectors and reporting are delivery scopes, not activated subscription features. The enterprise page request-scope action opens the personal contact brief; inspect-workspace opens the existing free core; organization-access opens the configured evaluation access route. No purchase or access entitlement is granted by these links. See https://aaowasi-projects.pages.dev/enterprise/ and the projects repository COMMERCIALIZATION.md for scope, proposed pricing, buyer demo guidance and release gates.
+
+
+## Outcome-based GRC delivery and three executable demonstrations
+
+The public hub /, /services/ and /contact/ present bounded review packs as finished work rather than per-seat software. Open https://aaowasi-projects.pages.dev/outcomes/ to reproduce three domain scenarios. All figures are generated from deliberately synthetic fixtures; no client outcomes, verified evidence, breach reporting trigger or certification is implied.
+
+**D14-1:** AI vendor onboarding, 4 × 4 inherent risk, +8 missing-approval/processor/transfer signals = risk priority 24/25, HIGH / HOLD. Missing Article 50 disclosure review and GDPR Article 28 information are review flags and must not be called proven statutory noncompliance. **D07-2:** 3/3 documented domain assertions and 1/1 passing, dated test produce 100% recorded readiness/coverage in a synthetic audit scenario; HTTPS example links are not fetched, authentic or externally verified. **D12-3:** shadow-AI cross-border PII with 3 × 4 inherent plus 8 metadata flags = priority 20/25. Its conditional 72-hour awareness clock is an illustration and does not establish the actual controller's GDPR Article 33 reporting obligation.
+
+Use original version-1 sample JSON as import into the typed Workspace or schemaVersion-1.0 Decision Lab. Exported version-2 Decision Pack and Markdown memo are deliverables, not original import files. All 29 domains still maintain independent assertions and shared upstream/downstream metadata; acceptance remains with a named human reviewer. No daily regulatory feed or 190-country coverage is represented as operational.
 
 
 ## Executable scenarios
