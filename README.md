@@ -4,7 +4,7 @@
 
 AI use-case review packs, supplier decision packs and control evidence readiness — defined inputs, traceable findings, accountable actions and an editable handover. Inspect the domain-specific calculations and source before scoping an engagement or discussing role fit.
 
-[Decision brief](https://aaowasi.pages.dev/contact/) · [Live governance workspace](https://aaowasi-projects.pages.dev/workspace/) · [Delivery evidence](https://aaowasi-projects.pages.dev/results/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/)
+[Three executed scenario previews](https://aaowasi-projects.pages.dev/outcomes/) · [Decision brief](https://aaowasi.pages.dev/contact/) · [Live governance workspace](https://aaowasi-projects.pages.dev/workspace/) · [Delivery evidence](https://aaowasi-projects.pages.dev/results/) · [Continuous GRC suite](https://aaowasi-projects.pages.dev/suite/)
 
 ## What you can inspect
 
