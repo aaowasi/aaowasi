@@ -2,7 +2,7 @@
 
 Generated from 29 active domain projects, 16 record types and 132 register/reporting views.
 
-Source contract SHA-256: `d99dfc18556506a7cc22c6aaf24b42d8a881dbaa49e82d4909234dad5aed833c`
+Source contract SHA-256: `08e9bf2a45f5ff08df19171fea4ba17157d0f014546e6e2c77c47f18688faf2d`
 
 ## System overview
 
@@ -801,8 +801,11 @@ This inventory is generated from the shipped HTML. Repeated controls appear once
 | Work | Opens the named dedicated project with review scope, readiness inputs, evidence needs and dependency links. Destination: `/work/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Services | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/services/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Contact ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
-| Scope a review pack ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
-| Inspect the working model → | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?module=vendor-risk`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Request a scoped review → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/contact/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Run three real workflows → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/outcomes/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Reproduce this decision → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/outcomes/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Get example JSON ↓ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/samples/ai-governance/1.json`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Inspect the calculated outputs → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/outcomes/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | AI inventory & lifecycle authorization | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?domain=ai-governance`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | ↗ | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?domain=ai-governance`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Supplier lifecycle & concentration | Opens the typed operating workspace; query parameters choose a domain. Preserve current in-memory data through export before leaving. Destination: `https://aaowasi-projects.pages.dev/workspace/?domain=vendor-risk`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
@@ -811,7 +814,7 @@ This inventory is generated from the shipped HTML. Repeated controls appear once
 | Recorded delivery checks → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/results/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Review services and handover → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/services/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Professional profile → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `/profile/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
-| Explore executable scenarios → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/samples/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
+| Explore three guided client scenarios → | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/outcomes/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Personal hub ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi.pages.dev/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | Project workspace ↗ | Navigates to the displayed destination. This action does not submit a form or alter a record. Destination: `https://aaowasi-projects.pages.dev/`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
 | GitHub ↗ | Opens owned source or documentation in GitHub for technical inspection. Destination: `https://github.com/aaowasi`. | Show the input, destination or evidence state; describe the next accountable action rather than promising automatic compliance. |
@@ -1311,6 +1314,7 @@ scripts/scenario_docs.py
 scripts/seo.py
 scripts/sync_catalogue.py
 site/404.html
+site/assets/conversion.css
 site/assets/site.css
 site/assets/site.js
 site/privacy/index.html
