@@ -1,6 +1,10 @@
 # Abdullah Al Owasi
 
-**GRC & Technology Risk | AI Governance | Supplier Assurance & Audit Readiness**
+**GRC Analyst · Security Compliance · Third-Party Risk (TPRM) · AI Governance**
+
+**Open to:** remote GRC / security compliance / IT risk / supplier assurance positions and clearly scoped B2B contractor engagements. I work from Malaysia and can discuss lawful cross-border contracting arrangements. My independent portfolio uses synthetic examples; it is not presented as prior client employment.
+
+**Recruiter quick review:** [30-second work overview](https://aaowasi.pages.dev/work/) · [Control evidence and audit readiness](https://aaowasi-projects.pages.dev/work/audit-readiness/) · [AI governance case](https://aaowasi-projects.pages.dev/work/ai-governance/) · [Supplier-risk case](https://aaowasi-projects.pages.dev/work/vendor-risk/) · [Professional profile](https://aaowasi.pages.dev/profile/)
 
 AI use-case review packs, supplier decision packs and control evidence readiness — defined inputs, traceable findings, accountable actions and an editable handover. Inspect the domain-specific calculations and source before scoping an engagement or discussing role fit.
 
