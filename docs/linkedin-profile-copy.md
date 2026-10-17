@@ -1,55 +1,56 @@
-# LinkedIn production profile copy — October 2026
+# LinkedIn profile copy — October 2026
 
 ## Headline
 
-Governance, Risk & Compliance | AI Governance · TPRM · Technology Risk | Audit Readiness & Control Assurance | Evidence-led Decision Systems
+GRC Analyst | Security Compliance · Third-Party Risk (TPRM) · AI Governance | Technology Risk & Audit Readiness | Remote / Contract
 
 ## About
 
-I build connected GRC workflows that turn AI, supplier, privacy and control evidence into accountable decisions.
+I focus on helping teams answer three practical governance questions: What is in scope? What evidence supports the decision? Who owns the next action?
 
-My focus is practical governance operations: define the decision boundary, separate verified evidence from gaps and assumptions, route material conclusions to accountable human reviewers, and preserve a traceable record of what happens next.
+My independent portfolio demonstrates how to document AI systems and vendor dependencies, map controls to evidence, identify expired or missing assurance records, and keep approval decisions with accountable people. The tools are inspectable rather than just screenshots: reviewers can change synthetic inputs, examine the scoring rules and export decision records.
 
-My public portfolio demonstrates ten connected modules across AI governance, third-party risk, audit readiness, privacy, technology risk and assurance, plus a continuous GRC operating suite spanning the configured governance domains, 16 shared record types and catalogue-driven register/reporting views.
+My strongest areas of interest are:
 
-Current focus areas:
-- AI governance: inventories, NIST AI RMF / NIST AI 600-1 mapping, human oversight, evaluation evidence, transparency duties, release criteria and post-deployment monitoring.
-- Third-party and AI vendor risk: SaaS / LLM intake, data use, subprocessors, assurance evidence, dependency risk and treatment ownership.
-- Technology risk: risk registers, treatment decisions, exceptions, risk acceptance, KRIs and accountable management reporting.
-- Audit readiness and continuous assurance: evidence freshness, control-test states, issues, remediation ownership and retest.
+- **Security compliance and audit readiness:** control testing, evidence registers, exceptions, remediation tracking, SOC 2 / ISO 27001 readiness concepts and management reporting.
+- **Third-party risk (TPRM):** supplier intake, SaaS / LLM vendor assessments, data-use and subprocessor reviews, evidence gaps and treatment follow-up.
+- **AI governance:** AI system inventories, NIST AI RMF and ISO/IEC 42001 mapping, evaluation evidence, human oversight, transparency and post-deployment change reviews.
+- **Technology risk:** risk registers, owners, controls, likelihood/impact scoring, issues and decision handovers.
 
-I am open to remote GRC / technology-risk / AI-governance roles and clearly scoped governance engagements where the work can be defined by evidence, outputs and acceptance criteria.
+I am seeking remote GRC Analyst, Security Compliance Analyst, IT Risk Analyst, Third-Party Risk Analyst and AI Governance Analyst opportunities, including clearly scoped contractor work where cross-border engagement is permitted. I can also discuss short evidence-mapping or vendor-review engagements.
 
-Portfolio: https://aaowasi.pages.dev/
-Live workspace: https://aaowasi-projects.pages.dev/workspace/
-GitHub: https://github.com/aaowasi
+**Proof of work:**
+Governance workspace: https://aaowasi-projects.pages.dev/workspace/
+Control evidence / audit case: https://aaowasi-projects.pages.dev/work/audit-readiness/
+AI governance case: https://aaowasi-projects.pages.dev/work/ai-governance/
+Vendor risk case: https://aaowasi-projects.pages.dev/work/vendor-risk/
+Source and tests: https://github.com/aaowasi/aaowasi-projects
 
-## Experience
+The public demonstrations use synthetic data. They do not represent customer deployments, auditor certification or previous employment.
 
-### GRC & AI Governance — Independent Project Portfolio
+## Experience — independent projects (not employment)
 
-Built and documented a connected governance workspace spanning AI governance, third-party risk, audit readiness, privacy, technology risk and assurance.
+### Independent GRC & AI Governance Portfolio — Project Work
 
-- Designed ten interoperable governance modules around a shared record model so the same source fact can be traced across risk, evidence and review decisions.
-- Built a continuous GRC operating suite covering the configured governance domains, 16 record types and catalogue-driven register/reporting views.
-- Structured AI governance around inventories, NIST AI RMF / NIST AI 600-1 mapping, human oversight, evaluation evidence, release criteria and post-deployment monitoring.
-- Structured third-party review for SaaS, LLM and external AI vendors across data use, subprocessors, assurance evidence, dependency risk and remediation ownership.
-- Added explicit evidence states, human approval gates, decision rationale and exportable review outputs so unsupported claims remain visible instead of being auto-approved.
-- Published source, validation checks and recorded workflow evidence for independent inspection.
+- Developed an inspectable browser-based governance portfolio spanning AI governance, vendor risk, control assurance, privacy and technology risk.
+- Modeled 29 governance domains, 16 shared record types and 132 catalogue-defined register/report views; implemented synthetic scenarios to demonstrate cross-domain evidence traceability and reviewer handoffs.
+- Documented vendor review gates covering assurance evidence, subprocessors, retention and training-use terms for SaaS and AI suppliers.
+- Built evidence-status and control-testing examples with dated records, named reviewers, exception states and exportable decision memos.
+- Included automated validation checks and clear boundaries between browser demos and optional server-side services.
 
-## Featured
+**Disclosure:** Personal portfolio / independent practice, not a paid employer engagement.
 
-1. **Connected Governance Workspace** — Ten-module live workspace for AI, supplier, privacy, assurance and executive-risk decisions.
-2. **Continuous GRC Operating Suite** — the configured governance domains, 16 shared record types and catalogue-driven register/reporting views.
-3. **Recorded Delivery Evidence** — Workflow observations tied to exact commits and source timestamps.
-4. **GitHub Source** — Versioned implementation, tests, manifests, schemas and operating documentation.
+## Featured (priority order)
 
-## Services
+1. **Audit-readiness proof** — https://aaowasi-projects.pages.dev/work/audit-readiness/
+2. **TPRM supplier-review proof** — https://aaowasi-projects.pages.dev/work/vendor-risk/
+3. **AI governance review proof** — https://aaowasi-projects.pages.dev/work/ai-governance/
+4. **Source, tests and schemas** — https://github.com/aaowasi/aaowasi-projects
 
-- AI governance review sprint
-- AI vendor & supplier assurance
-- Continuous assurance review
+## Skills / searchable role terms
 
-## Profile API note
+Governance, Risk & Compliance (GRC); IT Risk Management; Security Compliance; Third-Party Risk Management (TPRM); Audit Readiness; IT General Controls (ITGC — concepts); Control Testing; ISO/IEC 27001; SOC 2; NIST AI RMF; ISO/IEC 42001; AI Governance; Evidence Management; Risk Assessment; Policy Governance; Vendor Due Diligence; Remediation Tracking; Continuous Assurance.
 
-The connected LinkedIn API exposes profile read and publishing actions but not headline/About/Experience/Featured editing. This file is the canonical paste-ready source for those fields.
+## Verification and publishing boundary
+
+Confirm each skill level and each claimed hands-on activity before publishing. Do not add unearned certifications, years of experience, operational client deployments or audit opinions. The LinkedIn connector available in this session does not support editing profile fields; the owner must paste these sections into LinkedIn.
