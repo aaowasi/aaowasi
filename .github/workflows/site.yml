@@ -20,7 +20,7 @@ jobs:
       - run: python scripts/check_contract.py
       - run: node --check site/assets/site.js
   sync:
-    if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.actor != 'github-actions[bot]'
     needs: validate
     runs-on: ubuntu-latest
     permissions:
