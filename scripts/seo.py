@@ -11,9 +11,9 @@ def apply_seo(root):
     project=(root/'engine').exists()
     origin='https://aaowasi-projects.pages.dev' if project else 'https://aaowasi.pages.dev'
     descriptions={
-        '/':'Connected AI governance, supplier risk and assurance workflows by Abdullah Al Owasi. Inspect project mechanics, source evidence and scoped review outputs.' if project else 'Connected GRC, third-party risk and AI governance workflows by Abdullah Al Owasi. Inspect live decision mechanics, delivery evidence and scoped review services.',
-        '/profile/':'Abdullah Al Owasi: GRC, AI governance, third-party risk, technology risk, audit readiness and evidence-led decision workflows. Inspect role-fit evidence and public delivery mechanics.',
-        '/services/':'Scope an AI governance, AI vendor assurance or continuous assurance review with defined evidence, reviewers, outputs and acceptance criteria.',
+        '/':'Connected AI governance, supplier risk and assurance workflows by Abdullah Al Owasi. Inspect project mechanics, source evidence and scoped review outputs.' if project else 'AI-assisted GRC, controls assurance, third-party risk and AI/agent governance by Abdullah Al Owasi. Inspect accountable decision mechanics, evidence boundaries and role-fit proof.',
+        '/profile/':'Abdullah Al Owasi: GRC, controls assurance, security compliance, TPRM and AI/agent governance focused on evidence validity, control effectiveness and accountable risk decisions.',
+        '/services/':'Scope controls assurance, TPRM, AI governance or agentic GRC reviews with defined evidence, accountable decision rights, outputs and acceptance criteria.',
         '/contact/':'Send a decision brief for a GRC role, AI governance review, AI vendor assurance or continuous assurance engagement.',
         '/results/':'Actual public GitHub Actions observations with source timestamps, exact commits and workflow outcomes. Bounded delivery evidence for the AAO portfolio.',
         '/workspace/':'Try connected browser-local governance modules with validated metadata imports, risk review, dated evidence and decision exports.',
@@ -40,7 +40,7 @@ def apply_seo(root):
         else:urls.append(url)
         if route in ['/','/profile/']:
             graph=[{'@type':'WebSite','@id':origin+'/#website','url':origin+'/','name':'AAO Governance Portfolio' if project else 'Abdullah Al Owasi'}]
-            if not project:graph.append({'@type':'Person','@id':origin+'/#person','name':'Abdullah Al Owasi','url':origin+'/profile/','sameAs':['https://github.com/aaowasi','https://www.linkedin.com/in/aaowasi/'],'knowsAbout':['AI governance','Supplier risk','Control assurance']})
+            if not project:graph.append({'@type':'Person','@id':origin+'/#person','name':'Abdullah Al Owasi','url':origin+'/profile/','sameAs':['https://github.com/aaowasi','https://www.linkedin.com/in/aaowasi/'],'knowsAbout':['GRC','Controls assurance','Third-party risk','AI governance','Agent governance','Audit readiness']})
             data=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')
             script_hashes.add("'sha256-"+base64.b64encode(hashlib.sha256(data.encode()).digest()).decode()+"'")
             tags+='<script type="application/ld+json" data-seo>'+data+'</script>'
