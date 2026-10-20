@@ -1,6 +1,6 @@
 # Abdullah Al Owasi
 
-**GRC & AI Governance | Third-Party AI/LLM Risk · Technology Risk | Audit Readiness & Control Assurance**
+**GRC & Controls Assurance | Security Compliance · TPRM · AI & Agent Governance**
 
 Petaling Jaya, Malaysia · abdullahalowasi369@gmail.com
 
@@ -8,7 +8,7 @@ Petaling Jaya, Malaysia · abdullahalowasi369@gmail.com
 
 ## Profile
 
-I build connected governance workflows that turn AI, supplier, privacy, drift/change and control evidence into accountable decisions. My public portfolio is designed to be inspected: source records, evidence states, scoring logic, human review gates, tests and decision outputs are visible instead of hidden behind static screenshots.
+I build decision-grade GRC and assurance workflows across controls, suppliers, AI systems and audit evidence. Automation handles preparation where appropriate; evidence validity, control-effectiveness conclusions, exceptions, residual-risk decisions and sign-off remain accountable human responsibilities. My public portfolio is designed to be inspected: source records, evidence states, scoring logic, human review gates, tests and decision outputs are visible instead of hidden behind static screenshots.
 
 ## Core competencies
 
@@ -17,6 +17,7 @@ I build connected governance workflows that turn AI, supplier, privacy, drift/ch
 - Technology-risk prioritization, risk treatment, exceptions, risk acceptance, KRIs and management reporting
 - Audit readiness and continuous assurance: evidence freshness, control-test states, remediation ownership and retest
 - Governance operating models, decision records, escalation paths, accountable ownership and evidence-backed review
+- Agentic GRC oversight: agent/tool/data authorization, evidence provenance, human approval gates, change triggers and ongoing monitoring
 
 ## Selected independent work
 
