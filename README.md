@@ -1,6 +1,6 @@
 # Abdullah Al Owasi
 
-**GRC Analyst · Security Compliance · Third-Party Risk (TPRM) · AI Governance**
+**GRC Analyst · Controls Assurance · Security Compliance · TPRM · AI & Agent Governance**
 
 **Open to:** remote GRC / security compliance / IT risk / supplier assurance positions and clearly scoped B2B contractor engagements. I work from Malaysia and can discuss lawful cross-border contracting arrangements. My independent portfolio uses synthetic examples; it is not presented as prior client employment.
 
@@ -16,6 +16,21 @@ AI use-case review packs, supplier decision packs and control evidence readiness
 - **29 GRC operating domains**, **16 shared record types** and **132 register/reporting views** in the continuous GRC suite.
 - Editable browser-local records, transparent scoring rules, evidence states, human review gates and exportable decision memos.
 - Versioned source, validation workflows and recorded delivery checks tied to exact commits.
+
+## Agentic GRC operating model
+
+AI agents can gather evidence, draft registers, cross-check documents and prepare audit work. This portfolio focuses on the control boundary above that automation: **evidence validity, control effectiveness, exceptions, risk acceptance, authorization and accountable sign-off**.
+
+| Automation can prepare | Accountable people still own |
+|---|---|
+| Evidence requests, first-pass registers and document cross-checks | Scope, materiality and review boundary |
+| Draft mappings, questionnaires and readiness summaries | Whether evidence is sufficient and a control is effective |
+| Change signals, missing-item queues and candidate remediation | Exceptions, residual risk, treatment and acceptance |
+| Agent/tool/data activity records | Authorization, escalation, release and sign-off |
+
+External benchmark: [grcskills.com](https://grcskills.com/) publishes 60 open GRC agent skills across readiness, risk, evidence, audit, vendors, privacy, AI systems and continuity. I treat that library as an automation reference—not delegated authority or automatic compliance.
+
+[Inspect the agentic assurance model](https://aaowasi-projects.pages.dev/agentic-assurance/) · [Agent/tool/data authorization](https://aaowasi-projects.pages.dev/work/agent-authorization/) · [Evidence integrity & provenance](https://aaowasi-projects.pages.dev/work/evidence-integrity/)
 
 ## Primary work
 
@@ -36,6 +51,8 @@ NIST AI RMF 1.0 and NIST AI 600-1 · ISO/IEC 42001:2023 · ISO/IEC 27001:2022 ·
 **AI vendor & supplier assurance** — structured review of SaaS, LLM and external AI vendors with evidence requests, treatment decisions and remediation ownership.
 
 **Continuous assurance review** — evidence expiry, exceptions, retest ownership and concise management reporting.
+
+**Agentic GRC & AI assurance review** — automation inventory, decision-rights mapping, evidence/provenance checks, agent/tool/data authorization boundaries and human-accountability gates.
 
 [Send a scope brief](https://aaowasi.pages.dev/contact/) if you have one defined AI use case, vendor set or assurance backlog to review.
 
